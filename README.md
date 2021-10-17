@@ -25,9 +25,10 @@
 ## Printing to PDF from Chrome
 
 - Follow these recommended steps to print to PDF from Chrome browser:
+
 1. In the Chrome main menu, go to "More tools" > "Developer tools"
 1. **Important:** Make sure the "Responsive" bar is closed, and that the width of the page is between 1200 and 1250 pixels (when hovering over html tag).
-![Print Prep](/images/syllabusPrintPrep.png)
+   ![Print Prep](/images/syllabusPrintPrep.png)
 1. In "Developer tools", click the three-dot menu (upper right) and go to "Run command"
 1. Under "Run command", select "Screenshot Capture full size screenshot". A PNG file will be saved to your machine.
 1. Open the PNG file in another Chrome tab.
@@ -35,7 +36,6 @@
 1. In the Chrome main menu, select "Print...".
 1. Change destination to "Save to PDF", make sure margins are set to "None", then click "Save"
 1. The final PDF will be saved to your machine.
-
 
 ## Prerequistes
 
@@ -58,6 +58,10 @@ Windows Tools
 - [Powershell](https://docs.microsoft.com/en-us/powershell/) - Windows CLI
 - [Chocolatey](https://chocolatey.org/) - software manager for Windows
 - [TortoiseGit](https://tortoisegit.org/) - integrates with Windows File Explorer
+
+Update: Use Winget to update to latest Powershell:
+
+`winget install --name PowerShell --exact --source winget`
 
 CI/CD Tools
 
@@ -202,4 +206,3 @@ npm run lint-fix
 ## See also
 
 - Source: <https://github.com/denisecase/44-517-bigdata-syllabus> - uses content from here
-

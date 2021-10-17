@@ -1,19 +1,20 @@
 module.exports = {
   env: {
     browser: true,
-    es2020: true,
+    es2021: true,
     node: true,
   },
-  extends: ['airbnb-base', 'prettier'],
+  extends: ['prettier'],
   globals: {
     $: true,
     found: true,
   },
   parserOptions: {
-    ecmaVersion: 2020,
+    ecmaVersion: 2021,
     sourceType: 'module',
   },
   plugins: ['prettier'],
+  root: true,
   rules: {
     'import/extensions': 0,
     'max-len': [
